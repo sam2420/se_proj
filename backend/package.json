@@ -1,6 +1,6 @@
 {
   "name": "backend",
-  "proxy": "http://localhost:4000",
+  "proxy": "https://shopsphere-backend-y7aq.onrender.com",
   "type": "module",
   "version": "1.0.0",
   "description": "",
