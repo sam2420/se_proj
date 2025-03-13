@@ -74,7 +74,7 @@ export default function UserListScreen() {
     if (window.confirm('Are you sure to delete?')) {
       try {
         dispatch({ type: 'DELETE_REQUEST' });
-        await axios.delete(`/api/users/${user._id}`, {
+        await axios.delete(`https://shopsphere-backend-y7aq.onrender.com/api/users/${user._id}`, {
           headers: { Authorization: `Bearer ${userInfo.token}` },
         });
         toast.success('user deleted successfully');

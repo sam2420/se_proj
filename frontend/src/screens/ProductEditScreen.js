@@ -94,7 +94,7 @@ export default function ProductEditScreen() {
     try {
       dispatch({ type: 'UPDATE_REQUEST' });
       await axios.put(
-        `/api/products/${productId}`,
+        `https://shopsphere-backend-y7aq.onrender.com/api/products/${productId}`,
         {
           _id: productId,
           name,

@@ -73,7 +73,7 @@ export default function UserEditScreen() {
     try {
       dispatch({ type: 'UPDATE_REQUEST' });
       await axios.put(
-        `/api/users/${userId}`,
+        `https://shopsphere-backend-y7aq.onrender.com/api/users/${userId}`,
         { _id: userId, name, email, isAdmin },
         {
           headers: { Authorization: `Bearer ${userInfo.token}` },
