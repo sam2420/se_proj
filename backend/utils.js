@@ -5,7 +5,7 @@ export const baseUrl = () =>
   process.env.BASE_URL
     ? process.env.BASE_URL
     : process.env.NODE_ENV !== 'production'
-    ? 'http://localhost:3000'
+    ? 'https://shopsphere-backend-y7aq.onrender.com'
     : 'https://yourdomain.com';
 
 export const generateToken = (user) => {
