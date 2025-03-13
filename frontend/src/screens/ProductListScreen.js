@@ -100,7 +100,7 @@ export default function ProductListScreen() {
       try {
         dispatch({ type: 'CREATE_REQUEST' });
         const { data } = await axios.post(
-          '/api/products',
+          'https://shopsphere-backend-y7aq.onrender.com/api/products',
           {},
           {
             headers: { Authorization: `Bearer ${userInfo.token}` },
