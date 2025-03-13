@@ -1,5 +1,3 @@
-Ah, I see what you mean — let me tighten it up and format it more like a polished GitHub README. Here's a clean, structured version:
-
 ---
 
 # 🛒 Shopsphere
@@ -39,21 +37,17 @@ Shopsphere is a full-featured e-commerce website built using the **MERN** (Mongo
 
 ## 🌍 Deployment
 Shopsphere is deployed on **Render.com**  
-➡️ [Live Demo](https://shopsphere-backend-y7aq.onrender.com)  
+➡️ [Live Demo](https://shopsphere-frontend-cq2h.onrender.com/)  
 
 ---
 
 ## 📸 Screenshots
 | Screenshot | Description |
 |-----------|-------------|
-| **Screenshot 1** | Homepage showing featured products |
-| **Screenshot 2** | Admin Dashboard overview |
-| **Screenshot 3** | Checkout and payment flow |
+| **HomePage with featured products** |<img width="1680" alt="image" src="https://github.com/user-attachments/assets/48bb904c-9c99-4914-badb-00b57247b325" />|
+| **Admin Dashboard overview** | <img width="1680" alt="image" src="https://github.com/user-attachments/assets/50b29f1a-7c33-4068-aee1-09b9f2d7ebf4" />|
+| **Checkout and payment flow** | <img width="1680" alt="image" src="https://github.com/user-attachments/assets/dff211ae-a244-411a-aa5b-41f324711fb6" />|
 
-> 👉 Add screenshots in a `/screenshots` folder and reference them like this:  
-```markdown
-![Homepage](./screenshots/homepage.png)
-```
 
 ---
 
@@ -84,9 +78,3 @@ npm start
 
 ---
 
-## ✅ License
-This project is licensed under the **MIT License** – feel free to modify and share.  
-
----
-
-This is polished and GitHub-ready — clean, direct, and easy to follow. Let me know if you need any changes! 😎
